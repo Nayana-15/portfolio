@@ -30,7 +30,7 @@ nav {
 
 .portfolio-title {
     font-size: 28px;
-    color: #ffcc00; /* Yellow */
+    color: #ffcc00;
     font-weight: 700;
 }
 
@@ -91,7 +91,7 @@ nav {
 }
 
 .highlight-name {
-    color: #ff66b2; /* Pink */
+    color: #ff66b2; 
 }
 
 .home-text p {
@@ -131,36 +131,24 @@ nav {
     object-fit: cover;
 }
 .skills-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    grid-template-areas:
-      "python sql react"
-      "node   sql htmlcss"
-      "git    .   .";
-    width: 100%;
-    max-width: 1100px;
-    margin: auto;
-    padding: 20px 0 40px 0;
-  }
-  
-  .skill-card:nth-child(1) { grid-area: python; }
-  .skill-card:nth-child(2) { grid-area: sql; }
-  .skill-card:nth-child(3) { grid-area: react; }
-  .skill-card:nth-child(4) { grid-area: node; }
-  .skill-card:nth-child(5) { grid-area: htmlcss; }
-  .skill-card:nth-child(6) { grid-area: git; }
-  
-  .skill-card {
-    background-color: #002b5c;
-    padding: 25px;
-    border-radius: 15px;
-    transition: all 0.4s ease;
-    cursor: pointer;
-    text-align: center;
-    color: white;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 0 40px 0;
+}
+
+.skill-card {
+  background-color: #002b5c;
+  padding: 25px;
+  border-radius: 15px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+}  
   .skill-card img {
     width: 50px;
     margin-bottom: 20px;
@@ -343,7 +331,7 @@ nav {
         font-size: 30px;
     }
 }
-/* Enhance image size and hover animation without changing original code */
+
 .home-image {
     width: 320px;
     height: 320px;
@@ -361,7 +349,7 @@ nav {
     white-space: nowrap;
     overflow: hidden;
     width: 0;
-    animation: typing 3s steps(20, end) forwards, blink 0.8s infinite;
+    animation: typing 3s steps(20, end) forwards, blink 0.8s infinite; 
 }
 
 @keyframes typing {
